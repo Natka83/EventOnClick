@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { OnClickComponent } from './on-click/on-click.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    OnClickComponent
   ],
   imports: [
     BrowserModule
@@ -14,3 +16,4 @@ import { AppComponent } from './app.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
